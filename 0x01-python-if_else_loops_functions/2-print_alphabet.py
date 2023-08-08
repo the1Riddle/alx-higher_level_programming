@@ -2,5 +2,4 @@
 # 2-print_alphabet.py
 
 for letter in range(97, 123):
-    letter = chr(letter)
-    print(f"{letter}", end="")
+    print("{}".format(chr(letter)), end="")
