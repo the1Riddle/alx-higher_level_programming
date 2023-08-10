@@ -1,8 +1,8 @@
- #Import && Modules in Python
+# Import && Modules in Python
 
 This dir contains tasks done on import and modules in python
 
- #General
+# General
 The tasks are ment to help to understand on how to:
     How to import functions from another file
     How to use imported functions
