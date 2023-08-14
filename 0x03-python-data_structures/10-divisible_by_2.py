@@ -6,4 +6,4 @@ def divisible_by_2(my_list=[]):
             multpls.append(True)
         else:
             multpls.append(False)
-    return (multplss)
+    return (multpls)
