@@ -4,4 +4,4 @@ def square_matrix_simple(matrix=[]):
     for idx, row in enumerate(new_matrix):
         for idx2, col in enumerate(new_matrix):
             new_matrix[idx][idx2] = row[idx2] ** 2
-    return (new_matrix)
+    return(new_matrix)
