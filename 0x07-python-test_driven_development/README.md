@@ -8,7 +8,7 @@ All the test files are inside the tests folder <br>
 All the test files are text files (extension: .txt) <br>
 All your tests are executed using the command: <br>
 
-    python3 -m doctest ./tests/
+    python3 -m doctest ./tests/*
 All the modules have the documentation(python3 -c 'print(__import__("my_module").__doc__)')
 And the functions documentation(python3 -c 'printi(__import__("my_module").my_function.__doc__)')
 
