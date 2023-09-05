@@ -21,7 +21,7 @@ class Rectangle:
         _str = ''
         for x in range(self.__height):
             for y in range(self.__width):
-                _str += '#'
+                _str += str(self.print_symbol)
             _str += '\n'
         return (_str[:-1])
 
