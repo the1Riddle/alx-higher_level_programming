@@ -1,0 +1,14 @@
+
+'3-say_my_name.txt' module
+=============================
+
+Unit test for the function  'say_my_name' that prints the first and last name
+-----------------------------
+
+Import the function:
+	>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+Now test it:
+
+	>>> say_my_name("John", "Smith")
+	My name is John Smith
