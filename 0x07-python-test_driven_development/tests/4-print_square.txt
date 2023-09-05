@@ -1,0 +1,19 @@
+
+'4-print_square.py' module
+==================================
+
+Unit test for the function  'print_square' that prints a square with #
+----------------------------------
+
+Import the function:
+
+	>>> print_square = __import__('4-print_square').print_square
+
+Now test it:
+
+	>>> size = 4
+	>>> print_square(size)
+	####
+	####
+	####
+	####
