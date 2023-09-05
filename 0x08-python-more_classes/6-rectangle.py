@@ -5,13 +5,13 @@
 class Rectangle:
     """a class Rectangle that defines a rectangle"""
 
-    num_inst= 0
+    number_of_instances = 0
 
     def __init__(self, width=0, height=0):
         """ the instanciation """
         self.width = width
         self.height = height
-        Rectangle.num_inst += 1
+        Rectangle.number_of_instances += 1
 
     def __str__(self):
         """ returns the string rep"""
@@ -25,13 +25,13 @@ class Rectangle:
         return (_str[:-1])
 
     def __repr__(self):
-        """str rep"""
-        return ("Rectangle({}, {})".format(self.__width, self.__height))
+        """Ret str """
+        return "Rectangle({}, {})".format(self.__width, self.__height)
 
     def __del__(self):
-        """Trigger when a rectangle is destroyed"""
+        """print out on del"""
         print("Bye rectangle...")
-        Rectangle.num_inst -= 1
+        Rectangle.number_of_instances -= 1
 
     @property
     def width(self):
