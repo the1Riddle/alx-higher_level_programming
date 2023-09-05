@@ -8,4 +8,4 @@ def copy_list(l):
         Your file should be maximum 3-line long (no documentation needed)
         You are not allowed to import any module
     """
-    return (l[:])
+    return list(l)
