@@ -29,6 +29,6 @@ OK. But what about this?
 	>>> 
 
 ### .txt Answer Files
-    Only one line
-    No Shebang
-    All my files end with a new line
+Only one line
+No Shebang
+All my files end with a new line
