@@ -1,0 +1,36 @@
+
+'5-text_indentation.py' module
+==================================
+
+Unit test for the function 'text_indentation' that separate text with ., ?, :
+----------------------------------
+
+Import the function:
+
+	>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+Now test it:
+
+	>>> text = "wan. two: thri? four, five. six, seven"
+	>>> text_indentation(text)
+	wan.
+	<BLANKLINE>
+	two:
+	<BLANKLINE>
+	thri?
+	<BLANKLINE>
+	four, five.
+	<BLANKLINE>
+	six, seven
+
+	>>> text_indentation(7)
+	Traceback (most recent call last):
+	TypeError: text must be a string
+
+	>>> text_indentation({"one": 1, "two": 2})
+	Traceback (most recent call last):
+	TypeError: text must be a string
+
+	>>> text_indentation(None)
+	Traceback (most recent call last):
+	TypeError: text must be a string
