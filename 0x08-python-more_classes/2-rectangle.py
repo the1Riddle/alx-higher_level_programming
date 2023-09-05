@@ -52,6 +52,7 @@ class Rectangle:
         """
             now am geting the perimeter
             the fomulae is given by 2 * (height + width) for all sides
+            if length && width = 0 : 0
         """
         if self.__height == 0 or self.__width == 0:
             return (0)
