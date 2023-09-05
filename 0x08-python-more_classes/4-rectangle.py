@@ -11,23 +11,19 @@ class Rectangle:
         self.height = height
 
     def __str__(self):
-        """
-            returns an informal string rep
-        """
+        """returns an informal string rep"""
         if self.__height == 0 or self.__width == 0:
             return ''
-        rectangle_str = ''
-        for i in range(self.__height):
-            for j in range(self.__width):
-                rectangle_str += '#'
-            rectangle_str += '\n'
-        return rectangle_str[:-1]
+        _str = ''
+        for x in range(self.__height):
+            for y in range(self.__width):
+                _str += '#'
+            _str += '\n'
+        return (_str[:-1])
 
     def __repr__(self):
-        """
-            return internal string rep
-        """
-        return "Rectangle({}, {})".format(self.__width, self.__height)
+        """return internal string rep"""
+        return ("Rectangle({}, {})".format(self.__width, self.__height))
 
     @property
     def width(self):
