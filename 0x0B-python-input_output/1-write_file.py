@@ -6,5 +6,6 @@
 
 
 def write_file(filename="", text=""):
+    """the body"""
     with open(finename, mode='w', encoding='utf8') as thefile:
         return (thefile.write(text))
