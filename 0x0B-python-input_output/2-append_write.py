@@ -7,5 +7,5 @@
 
 def append_write(filename="", text=""):
     """the body"""
-    with open(filename, made='a', encoding='utf-8') as thefile:
+    with open(filename, mode='a', encoding='utf-8') as thefile:
         return (thefile.write(text))
