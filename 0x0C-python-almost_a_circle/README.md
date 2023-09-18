@@ -7,7 +7,9 @@ Python Unit Tests
 
 - All your test files are inside a folder ""tests""
 - All the test file folders and files starts with test\_ <br>
-You can also test file by file by using this command:
+All the tests should be executed by using this command:
 
+        python3 -m doctest ./tests/*
+You can also test file by file by using this command:
 
 	python3 -m unittest tests/test_models/test_base.py
