@@ -6,6 +6,7 @@
 import io
 import sys
 import unittest
+import __init__
 from models.base import Base
 from models.rectangle import Rectangle
 
