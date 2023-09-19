@@ -2,7 +2,6 @@
 """
     this is a unittest for rectangle.py.
 """
-"""the iported"""
 import io
 import sys
 import unittest
