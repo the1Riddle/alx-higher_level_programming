@@ -11,6 +11,7 @@ SQL || Stractured Query Language is language used to manage and manipulate relat
 - Inserting
 - Updating
 - Deleting records
+
 It also defines the structure and relationships within the database. With this ability it plays a crucial role in data retrieval and management in various software applications.
 
 Requirements -> General
