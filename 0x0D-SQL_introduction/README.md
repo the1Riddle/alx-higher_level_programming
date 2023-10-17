@@ -1,7 +1,7 @@
 # SQL - Introduction
 
 **Welcome to SQL - Introduction project**
-## ![Untitled](https://github.com/the1Riddle/alx-higher_level_programming/assets/125451537/8716ee15-2580-4211-9640-e808296ff8f9)
+## ![introduction to SQL](https://github.com/the1Riddle/alx-higher_level_programming/assets/125451537/f7be1690-4b9b-4d98-95e2-992c39e0b6a4)
 
 Brief Overview
 -----------------------------
