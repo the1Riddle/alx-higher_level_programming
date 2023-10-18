@@ -1,5 +1,5 @@
 -- a script that creates a DB and a table on the server
-CREATE DATABASE IF NOTY EXISTS hbtn_0d_usa;
+CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
 USE hbtn_0d_usa;
 CREATE TABLE IF NOT EXISTS cities;
 (
