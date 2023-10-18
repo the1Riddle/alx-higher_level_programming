@@ -1,3 +1,3 @@
 # SQL - More queries
 
-## ![new](https://github.com/the1Riddle/alx-higher_level_programming/assets/125451537/f7658c63-bade-45b9-acf0-8aefe689412a)
+## ![introduction to SQL](https://github.com/the1Riddle/alx-higher_level_programming/assets/125451537/af51da70-efc1-4e2d-9dd4-526cffcc2e65)
